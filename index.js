@@ -1,7 +1,7 @@
 const express = require("express")
 require("dotenv").config()
 const connectDB = require("./config/db")
-const User = require("model/user")
+const User = require("./model/user")
 connectDB()
 
 const PORT = 3020
